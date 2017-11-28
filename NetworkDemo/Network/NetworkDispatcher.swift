@@ -12,7 +12,7 @@ class NetworkDispatcher: NbaAPIClient {
     
     // MARK: - Properties
     
-    private var teamStandingsRequest: TeamStandingsRequest
+    private let teamStandingsRequest: TeamStandingsRequest
     
     // MARK: - Initialization
     

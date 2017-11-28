@@ -12,9 +12,9 @@ struct TeamStandingsRequest {
     
     // MARK: - Properties
     
-    private var urlString: String
-    private var authUsername: String
-    private var authPassword: String
+    private let urlString: String
+    private let authUsername: String
+    private let authPassword: String
     
     var endpointURL: URL? {
         return URL(string: urlString)
