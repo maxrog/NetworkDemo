@@ -17,6 +17,8 @@ protocol NbaAPIClient {
                               onFailure: @escaping (NetworkErrorCallback))
 }
 
+// MARK: - Network Error Enum
+
 enum NbaNetworkError: Error {
     case unknown
     case failedRequest

@@ -10,4 +10,14 @@ import Foundation
 
 struct TeamStandingsRequest {
     
+    // MARK: - Properties
+    
+    private var urlString: String
+    private var authUsername: String
+    private var authPassword: String
+    
+    var endpointURL: URL? {
+        return URL(string: urlString)
+    }
+    
 }
