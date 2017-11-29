@@ -8,12 +8,11 @@
 
 import Foundation
 
-typealias NbaStandingsCallback = ([TeamStat]?) -> Void
+typealias NbaStandingsCallback = ([TeamStat]) -> Void
 typealias NetworkErrorCallback = (NbaNetworkError) -> Void
 
 protocol NbaAPIClient {
-    func requestTeamStandings(with standingsRequest: TeamStandingsRequest,
-                              onSuccess: @escaping NbaStandingsCallback,
+    func requestTeamStandings(onSuccess: @escaping NbaStandingsCallback,
                               onFailure: @escaping (NetworkErrorCallback))
 }
 
