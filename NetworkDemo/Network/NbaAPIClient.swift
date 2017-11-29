@@ -8,7 +8,7 @@
 
 import Foundation
 
-typealias NbaStandingsCallback = ([teamStat]?) -> Void
+typealias NbaStandingsCallback = ([TeamStat]?) -> Void
 typealias NetworkErrorCallback = (NbaNetworkError) -> Void
 
 protocol NbaAPIClient {

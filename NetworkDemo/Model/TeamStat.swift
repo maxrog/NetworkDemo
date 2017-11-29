@@ -16,8 +16,10 @@ struct TeamStat {
     let city: String
     let name: String
     let nameAbbrev: String
-    let wins: Int
-    let losses: Int
-    let standing: Int
+    let standing: String
+    let wins: String
+    let losses: String
     
 }
+
+

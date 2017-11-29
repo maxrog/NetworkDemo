@@ -12,6 +12,7 @@
 		3422A7961FCDBF94006A9B9A /* TeamStandingsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422A7951FCDBF94006A9B9A /* TeamStandingsRequest.swift */; };
 		3422A7991FCDC032006A9B9A /* TeamStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422A7981FCDC032006A9B9A /* TeamStat.swift */; };
 		3422A79B1FCDC0F7006A9B9A /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422A79A1FCDC0F7006A9B9A /* NetworkDispatcher.swift */; };
+		3422A79D1FCE3211006A9B9A /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422A79C1FCE3211006A9B9A /* JSONParser.swift */; };
 		3460384E1FCA28B200408F66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460384D1FCA28B200408F66 /* AppDelegate.swift */; };
 		346038531FCA28B200408F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346038511FCA28B200408F66 /* Main.storyboard */; };
 		346038551FCA28B200408F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346038541FCA28B200408F66 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		3422A7951FCDBF94006A9B9A /* TeamStandingsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStandingsRequest.swift; sourceTree = "<group>"; };
 		3422A7981FCDC032006A9B9A /* TeamStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStat.swift; sourceTree = "<group>"; };
 		3422A79A1FCDC0F7006A9B9A /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		3422A79C1FCE3211006A9B9A /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		3460384A1FCA28B200408F66 /* NetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3460384D1FCA28B200408F66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		346038521FCA28B200408F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3422A7931FCDBF57006A9B9A /* NbaAPIClient.swift */,
 				3422A7951FCDBF94006A9B9A /* TeamStandingsRequest.swift */,
 				3422A79A1FCDC0F7006A9B9A /* NetworkDispatcher.swift */,
+				3422A79C1FCE3211006A9B9A /* JSONParser.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				3422A79B1FCDC0F7006A9B9A /* NetworkDispatcher.swift in Sources */,
 				3422A7911FCDBF0B006A9B9A /* StandingsViewController.swift in Sources */,
 				3460384E1FCA28B200408F66 /* AppDelegate.swift in Sources */,
+				3422A79D1FCE3211006A9B9A /* JSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AS2TD23UD;
-				INFOPLIST_FILE = NetworkDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NetworkDemo/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.maxrogers.NetworkDemo;
@@ -399,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9AS2TD23UD;
-				INFOPLIST_FILE = NetworkDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NetworkDemo/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.maxrogers.NetworkDemo;
