@@ -13,7 +13,7 @@ struct TeamStandingsRequest {
     // MARK: - Properties
     
     private let urlString: String
-    private let header: [String : String]
+    let header: [String : String]
     
     var endpointURL: URL? {
         return URL(string: urlString)

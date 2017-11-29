@@ -23,6 +23,26 @@ class NetworkDispatcher: NbaAPIClient {
     // MARK: - Network Request
     
     func requestTeamStandings(with standingsRequest: TeamStandingsRequest, onSuccess: @escaping NbaStandingsCallback, onFailure: @escaping (NetworkErrorCallback)) {
+        guard let url = standingsRequest.endpointURL else { return }
+        var request = URLRequest(url: url)
+        
+        request.addValue(standingsRequest.header.first!.key, forHTTPHeaderField: standingsRequest.header.first!.value)
+
+        URLSession.shared.dataTask(with: request) { (data, response, error) in
+            
+            if let _ = error {
+                onFailure(.failedRequest)
+            } else if let data = data, let response = response as? HTTPURLResponse {
+                if response.statusCode == 200 {
+                    onSuccess(JSONParser.parseTeamStandings(with: data))
+                } else {
+                    onFailure(.failedRequest)
+                }
+            } else {
+                onFailure(.unknown)
+            }
+        }
+        
         
     }
     
