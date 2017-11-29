@@ -14,12 +14,12 @@ struct LeagueManager {
     
     let allTeams: [TeamStat]
     var eastTeams: [TeamStat] {
-        return allTeams.filter { $0.conference == "east" }
-            .sorted { Int($0.standing)! > Int($1.standing)!  }
+        return allTeams.filter { $0.conference == "Eastern" }
+            .sorted { Int($0.standing)! < Int($1.standing)!  }
     }
     var westTeams: [TeamStat] {
-        return allTeams.filter { $0.conference == "west" }
-            .sorted { Int($0.standing)! > Int($1.standing)!  }
+        return allTeams.filter { $0.conference == "Western" }
+            .sorted { Int($0.standing)! < Int($1.standing)!  }
     }
     
     

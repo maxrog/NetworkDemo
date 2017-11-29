@@ -41,7 +41,7 @@ class NetworkDispatcher: NbaAPIClient {
             } else {
                 onFailure(.unknown)
             }
-        }
+        }.resume()
         
         
     }

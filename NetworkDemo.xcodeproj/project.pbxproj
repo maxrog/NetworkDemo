@@ -18,6 +18,8 @@
 		346038531FCA28B200408F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346038511FCA28B200408F66 /* Main.storyboard */; };
 		346038551FCA28B200408F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346038541FCA28B200408F66 /* Assets.xcassets */; };
 		346038631FCA28B200408F66 /* NetworkDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346038621FCA28B200408F66 /* NetworkDemoTests.swift */; };
+		34EDC46E1FCEFE4700712DFC /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */; };
+		34EDC4701FCEFE5600712DFC /* TeamInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		3460385E1FCA28B200408F66 /* NetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		346038621FCA28B200408F66 /* NetworkDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDemoTests.swift; sourceTree = "<group>"; };
 		346038641FCA28B200408F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		3422A7A01FCE4B1E006A9B9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */,
+				34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,10 +262,12 @@
 				3422A7961FCDBF94006A9B9A /* TeamStandingsRequest.swift in Sources */,
 				3422A7941FCDBF57006A9B9A /* NbaAPIClient.swift in Sources */,
 				3422A7991FCDC032006A9B9A /* TeamStat.swift in Sources */,
+				34EDC46E1FCEFE4700712DFC /* ConfigurableCell.swift in Sources */,
 				3422A79B1FCDC0F7006A9B9A /* NetworkDispatcher.swift in Sources */,
 				3422A79F1FCE490C006A9B9A /* LeagueManager.swift in Sources */,
 				3422A7911FCDBF0B006A9B9A /* StandingsTableViewController.swift in Sources */,
 				3460384E1FCA28B200408F66 /* AppDelegate.swift in Sources */,
+				34EDC4701FCEFE5600712DFC /* TeamInfoTableViewCell.swift in Sources */,
 				3422A79D1FCE3211006A9B9A /* JSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

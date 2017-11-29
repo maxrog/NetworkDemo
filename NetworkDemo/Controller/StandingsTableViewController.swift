@@ -15,7 +15,7 @@ class StandingsViewController: UITableViewController {
     var leagueManager: LeagueManager? {
         didSet {
             DispatchQueue.main.async {
-                tableView.reloadData()
+                self.tableView.reloadData()
             }
         }
     }
@@ -25,7 +25,46 @@ class StandingsViewController: UITableViewController {
         retrieveLeagueStats()
     }
     
+    // MARK: - Tableview Datasource
     
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        guard let eastTeams = leagueManager?.eastTeams,
+            let westTeams = leagueManager?.westTeams else { return 0 }
+        
+        if section == 0 {
+            return eastTeams.count
+        } else {
+            return westTeams.count
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let teamCell = tableView.dequeueReusableCell(withIdentifier: "teamCell", for: indexPath) as? TeamInfoTableViewCell else { return UITableViewCell() }
+        guard let eastTeams = leagueManager?.eastTeams,
+            let westTeams = leagueManager?.westTeams else { return UITableViewCell() }
+        
+        if indexPath.section == 0 {
+            teamCell.configure(with: eastTeams[indexPath.row])
+        } else {
+            teamCell.configure(with: westTeams[indexPath.row])
+        }
+        
+        return teamCell
+    }
+        
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Eastern"
+        } else {
+            return "Western"
+        }
+    }
+
+    // MARK: - Network Call
     
     func retrieveLeagueStats() {
         let header = ["Basic cm9nZXIwNDg6dkZWLTRNVi1hVzYtYVpk" : "Authorization"]
