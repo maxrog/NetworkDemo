@@ -20,6 +20,8 @@
 		34EDC46E1FCEFE4700712DFC /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */; };
 		34EDC4701FCEFE5600712DFC /* TeamInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */; };
 		34EDC4721FCF04A200712DFC /* NetworkDispatcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */; };
+		34EDC4751FCF865E00712DFC /* networkResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 34EDC4741FCF865E00712DFC /* networkResponse.json */; };
+		34EDC4781FCF87C300712DFC /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC4771FCF87C300712DFC /* XCTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoTableViewCell.swift; sourceTree = "<group>"; };
 		34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcherTest.swift; sourceTree = "<group>"; };
+		34EDC4741FCF865E00712DFC /* networkResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = networkResponse.json; sourceTree = "<group>"; };
+		34EDC4771FCF87C300712DFC /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,10 +155,28 @@
 		346038611FCA28B200408F66 /* NetworkDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				34EDC4761FCF87AA00712DFC /* Extensions */,
+				34EDC4731FCF85CB00712DFC /* Stubs */,
 				34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */,
 				346038641FCA28B200408F66 /* Info.plist */,
 			);
 			path = NetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		34EDC4731FCF85CB00712DFC /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				34EDC4741FCF865E00712DFC /* networkResponse.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		34EDC4761FCF87AA00712DFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34EDC4771FCF87C300712DFC /* XCTestCase.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EDC4751FCF865E00712DFC /* networkResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EDC4781FCF87C300712DFC /* XCTestCase.swift in Sources */,
 				34EDC4721FCF04A200712DFC /* NetworkDispatcherTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

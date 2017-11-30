@@ -11,14 +11,33 @@ import XCTest
 
 class NetworkDispatcherTest: XCTestCase {
     
+    // MARK: - Properties
+    
+    var leagueManager: LeagueManager!
+    
+    // MARK: - Set Up & Tear Down
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        let data = loadStubFromBundle(withName: "networkResponse", extension: "json")
+        let teamStats = JSONParser.parseTeamStandings(with: data)
+        leagueManager = LeagueManager(allTeams: teamStats)
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+    
+    // MARK: - Tests for Team Count
+    
+    func testNumberOfTeams() {
+        XCTAssertEqual(leagueManager.allTeams.count, 30)
+        XCTAssertEqual(leagueManager.eastTeams.count, 15)
+        XCTAssertEqual(leagueManager.westTeams.count, 15)
+    }
+    
+    
+    
     
 }

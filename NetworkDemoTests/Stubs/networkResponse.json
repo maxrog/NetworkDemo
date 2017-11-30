@@ -1,0 +1,767 @@
+{
+    "conferenceteamstandings": {
+        "lastUpdatedOn": "2017-11-29 2:22:22 AM",
+        "conference": [
+            {
+                "@name": "Eastern",
+                "teamentry": [
+                    {
+                        "team": {
+                            "ID": "82",
+                            "City": "Boston",
+                            "Name": "Celtics",
+                            "Abbreviation": "BOS"
+                        },
+                        "rank": "1",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "22"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "18"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "4"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "88",
+                            "City": "Detroit",
+                            "Name": "Pistons",
+                            "Abbreviation": "DET"
+                        },
+                        "rank": "2",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "13"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "6"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "86",
+                            "City": "Cleveland",
+                            "Name": "Cavaliers",
+                            "Abbreviation": "CLE"
+                        },
+                        "rank": "3",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "14"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "7"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "81",
+                            "City": "Toronto",
+                            "Name": "Raptors",
+                            "Abbreviation": "TOR"
+                        },
+                        "rank": "4",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "12"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "7"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "85",
+                            "City": "Philadelphia",
+                            "Name": "76ers",
+                            "Abbreviation": "PHI"
+                        },
+                        "rank": "5",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "11"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "8"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "87",
+                            "City": "Indiana",
+                            "Name": "Pacers",
+                            "Abbreviation": "IND"
+                        },
+                        "rank": "6",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "12"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "94",
+                            "City": "Washington",
+                            "Name": "Wizards",
+                            "Abbreviation": "WAS"
+                        },
+                        "rank": "7",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "11"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "90",
+                            "City": "Milwaukee",
+                            "Name": "Bucks",
+                            "Abbreviation": "MIL"
+                        },
+                        "rank": "8",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "10"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "83",
+                            "City": "New York",
+                            "Name": "Knicks",
+                            "Abbreviation": "NYK"
+                        },
+                        "rank": "9",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "10"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "10"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "92",
+                            "City": "Miami",
+                            "Name": "Heat",
+                            "Abbreviation": "MIA"
+                        },
+                        "rank": "10",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "10"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "10"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "93",
+                            "City": "Charlotte",
+                            "Name": "Hornets",
+                            "Abbreviation": "CHA"
+                        },
+                        "rank": "11",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "11"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "95",
+                            "City": "Orlando",
+                            "Name": "Magic",
+                            "Abbreviation": "ORL"
+                        },
+                        "rank": "12",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "13"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "84",
+                            "City": "Brooklyn",
+                            "Name": "Nets",
+                            "Abbreviation": "BRO"
+                        },
+                        "rank": "13",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "7"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "13"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "91",
+                            "City": "Atlanta",
+                            "Name": "Hawks",
+                            "Abbreviation": "ATL"
+                        },
+                        "rank": "14",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "4"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "16"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "89",
+                            "City": "Chicago",
+                            "Name": "Bulls",
+                            "Abbreviation": "CHI"
+                        },
+                        "rank": "15",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "3"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "16"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "@name": "Western",
+                "teamentry": [
+                    {
+                        "team": {
+                            "ID": "109",
+                            "City": "Houston",
+                            "Name": "Rockets",
+                            "Abbreviation": "HOU"
+                        },
+                        "rank": "1",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "16"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "4"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "101",
+                            "City": "Golden State",
+                            "Name": "Warriors",
+                            "Abbreviation": "GSW"
+                        },
+                        "rank": "2",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "15"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "6"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "106",
+                            "City": "San Antonio",
+                            "Name": "Spurs",
+                            "Abbreviation": "SAS"
+                        },
+                        "rank": "3",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "13"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "7"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "97",
+                            "City": "Portland",
+                            "Name": "Trail Blazers",
+                            "Abbreviation": "POR"
+                        },
+                        "rank": "4",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "13"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "8"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "100",
+                            "City": "Minnesota",
+                            "Name": "Timberwolves",
+                            "Abbreviation": "MIN"
+                        },
+                        "rank": "5",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "12"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "110",
+                            "City": "New Orleans",
+                            "Name": "Pelicans",
+                            "Abbreviation": "NOP"
+                        },
+                        "rank": "6",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "11"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "99",
+                            "City": "Denver",
+                            "Name": "Nuggets",
+                            "Abbreviation": "DEN"
+                        },
+                        "rank": "7",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "11"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "9"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "98",
+                            "City": "Utah",
+                            "Name": "Jazz",
+                            "Abbreviation": "UTA"
+                        },
+                        "rank": "8",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "10"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "11"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "96",
+                            "City": "Oklahoma City",
+                            "Name": "Thunder",
+                            "Abbreviation": "OKL"
+                        },
+                        "rank": "9",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "11"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "102",
+                            "City": "Los Angeles",
+                            "Name": "Clippers",
+                            "Abbreviation": "LAC"
+                        },
+                        "rank": "10",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "11"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "105",
+                            "City": "Los Angeles",
+                            "Name": "Lakers",
+                            "Abbreviation": "LAL"
+                        },
+                        "rank": "11",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "20"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "12"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "107",
+                            "City": "Memphis",
+                            "Name": "Grizzlies",
+                            "Abbreviation": "MEM"
+                        },
+                        "rank": "12",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "19"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "7"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "12"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "104",
+                            "City": "Phoenix",
+                            "Name": "Suns",
+                            "Abbreviation": "PHX"
+                        },
+                        "rank": "13",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "22"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "8"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "14"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "103",
+                            "City": "Sacramento",
+                            "Name": "Kings",
+                            "Abbreviation": "SAC"
+                        },
+                        "rank": "14",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "6"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "15"
+                            }
+                        }
+                    },
+                    {
+                        "team": {
+                            "ID": "108",
+                            "City": "Dallas",
+                            "Name": "Mavericks",
+                            "Abbreviation": "DAL"
+                        },
+                        "rank": "15",
+                        "stats": {
+                            "GamesPlayed": {
+                                "@abbreviation": "G",
+                                "#text": "21"
+                            },
+                            "Wins": {
+                                "@category": "Standings",
+                                "@abbreviation": "W",
+                                "#text": "5"
+                            },
+                            "Losses": {
+                                "@category": "Standings",
+                                "@abbreviation": "L",
+                                "#text": "16"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
