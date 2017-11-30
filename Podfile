@@ -10,6 +10,8 @@ target 'NetworkDemo' do
   target 'NetworkDemoTests' do
     inherit! :search_paths
     pod 'Mockingjay'
+    pod 'Quick'
+    pod 'Nimble'
   end
 
 end

@@ -6,15 +6,21 @@ PODS:
     - URITemplate (~> 2.0)
   - Mockingjay/XCTest (2.0.1):
     - Mockingjay/Core
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
   - URITemplate (2.0.3)
 
 DEPENDENCIES:
   - Mockingjay
+  - Nimble
+  - Quick
 
 SPEC CHECKSUMS:
   Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
 
-PODFILE CHECKSUM: 7626589b76c52186756f7e17c236167750ad7ab4
+PODFILE CHECKSUM: 94546c9fb838d48513325c70a64ec2c93a49440a
 
 COCOAPODS: 1.2.1
