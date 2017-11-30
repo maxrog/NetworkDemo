@@ -37,6 +37,13 @@ class NetworkDispatcherTest: XCTestCase {
         XCTAssertEqual(leagueManager.westTeams.count, 15)
     }
     
+    // MARK: - Test East Team Order on Access (sorted by rank)
+    
+    func testEastTeamOrder() {
+        XCTAssertEqual(leagueManager.eastTeams.first!.standing, "1")
+        XCTAssertEqual(leagueManager.eastTeams.last!.standing, "15")
+    }
+    
     
     
     

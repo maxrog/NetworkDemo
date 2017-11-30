@@ -69,7 +69,7 @@ class StandingsViewController: UITableViewController {
     // MARK: - Network Call
     
     func retrieveLeagueStats() {
-        activityIndicator.startAnimating()
+        toggleActivityIndicator()
         let header = ["Basic cm9nZXIwNDg6dkZWLTRNVi1hVzYtYVpk" : "Authorization"]
         let urlString = "https://api.mysportsfeeds.com/v1.1/pull/nba/2017-2018-regular/conference_team_standings.json?teamstats=W,L"
         let request = TeamStandingsRequest(urlString: urlString, header: header)
@@ -77,11 +77,23 @@ class StandingsViewController: UITableViewController {
         let dispatcher = NetworkDispatcher(request: request)
         
         dispatcher.requestTeamStandings(onSuccess: { (teamStats) in
-            self.activityIndicator.stopAnimating()
+            self.toggleActivityIndicator()
             self.leagueManager = LeagueManager(allTeams: teamStats)
         }) { (error) in
-            self.activityIndicator.stopAnimating()
+            self.toggleActivityIndicator()
             print("Show network error alert")
+        }
+    }
+    
+    // MARK: Activity Indicator Toggle
+    
+    func toggleActivityIndicator() {
+        DispatchQueue.main.async {
+            if self.activityIndicator.isAnimating {
+                self.activityIndicator.stopAnimating()
+            } else {
+                self.activityIndicator.startAnimating()
+            }
         }
     }
 
