@@ -19,7 +19,7 @@
 		346038551FCA28B200408F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346038541FCA28B200408F66 /* Assets.xcassets */; };
 		34EDC46E1FCEFE4700712DFC /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */; };
 		34EDC4701FCEFE5600712DFC /* TeamInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */; };
-		34EDC4721FCF04A200712DFC /* NetworkDispatcherTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */; };
+		34EDC4721FCF04A200712DFC /* LeagueManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC4711FCF04A200712DFC /* LeagueManagerTest.swift */; };
 		34EDC4751FCF865E00712DFC /* networkResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 34EDC4741FCF865E00712DFC /* networkResponse.json */; };
 		34EDC4781FCF87C300712DFC /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDC4771FCF87C300712DFC /* XCTestCase.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,7 @@
 		346038641FCA28B200408F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34EDC46D1FCEFE4700712DFC /* ConfigurableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
 		34EDC46F1FCEFE5600712DFC /* TeamInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoTableViewCell.swift; sourceTree = "<group>"; };
-		34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcherTest.swift; sourceTree = "<group>"; };
+		34EDC4711FCF04A200712DFC /* LeagueManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueManagerTest.swift; sourceTree = "<group>"; };
 		34EDC4741FCF865E00712DFC /* networkResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = networkResponse.json; sourceTree = "<group>"; };
 		34EDC4771FCF87C300712DFC /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,8 +157,8 @@
 			children = (
 				34EDC4761FCF87AA00712DFC /* Extensions */,
 				34EDC4731FCF85CB00712DFC /* Stubs */,
-				34EDC4711FCF04A200712DFC /* NetworkDispatcherTest.swift */,
-				346038641FCA28B200408F66 /* Info.plist */,
+				34EDC4791FCF915A00712DFC /* Test Cases */,
+				34EDC47A1FCF916100712DFC /* Supporting Files */,
 			);
 			path = NetworkDemoTests;
 			sourceTree = "<group>";
@@ -177,6 +177,22 @@
 				34EDC4771FCF87C300712DFC /* XCTestCase.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34EDC4791FCF915A00712DFC /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				34EDC4711FCF04A200712DFC /* LeagueManagerTest.swift */,
+			);
+			path = "Test Cases";
+			sourceTree = "<group>";
+		};
+		34EDC47A1FCF916100712DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				346038641FCA28B200408F66 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34EDC4781FCF87C300712DFC /* XCTestCase.swift in Sources */,
-				34EDC4721FCF04A200712DFC /* NetworkDispatcherTest.swift in Sources */,
+				34EDC4721FCF04A200712DFC /* LeagueManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

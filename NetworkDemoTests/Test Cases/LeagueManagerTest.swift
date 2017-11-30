@@ -1,5 +1,5 @@
 //
-//  NetworkDispatcherTest.swift
+//  LeagueManagerTest.swift
 //  NetworkDemoTests
 //
 //  Created by Max Rogers on 11/29/17.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import NetworkDemo
 
-class NetworkDispatcherTest: XCTestCase {
+class LeagueManagerTest: XCTestCase {
     
     // MARK: - Properties
     
