@@ -22,8 +22,7 @@ class StandingsViewController: UITableViewController {
         }
     }
 
-
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewDidLoad() {
         retrieveLeagueStats()
     }
     
