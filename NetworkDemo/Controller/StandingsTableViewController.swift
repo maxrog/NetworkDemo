@@ -29,7 +29,7 @@ class StandingsViewController: UITableViewController {
     // MARK: - Tableview Datasource
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -75,11 +75,11 @@ class StandingsViewController: UITableViewController {
         
         let dispatcher = NetworkDispatcher(request: request)
         
-        dispatcher.requestTeamStandings(onSuccess: { (teamStats) in
-            self.toggleActivityIndicator()
-            self.leagueManager = LeagueManager(allTeams: teamStats)
-        }) { (error) in
-            self.toggleActivityIndicator()
+        dispatcher.requestTeamStandings(onSuccess: { [weak self] (teamStats) in
+            self?.toggleActivityIndicator()
+            self?.leagueManager = LeagueManager(allTeams: teamStats)
+        }) { [weak self] (error) in
+            self?.toggleActivityIndicator()
             print("Show network error alert")
         }
     }
