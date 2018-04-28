@@ -47,26 +47,10 @@ class JSONParser {
         
         var leagueStats: [TeamStat] = []
         
-        for team in teams {
-            // Team Information
-            guard let standing = team["rank"] as? String,
-                let teamInfo = team["team"] as? [String : Any] else { return [] }
-            
-            guard let city = teamInfo["City"] as? String,
-                let name = teamInfo["Name"] as? String,
-                let abbrev = teamInfo["Abbreviation"] as? String else { return [] }
-            
-            // Team Stats
-            guard let teamStats = team["stats"] as? [String : Any] else { return [] }
-        
-            guard let wins = teamStats["Wins"] as? [String : Any] else { return [] }
-            guard let winCount = wins["#text"] as? String else { return [] }
-            
-            guard let losses = teamStats["Losses"] as? [String : Any] else { return [] }
-            guard let lossCount = losses["#text"] as? String else { return [] }
-            
-            let teamStat = TeamStat(conference: conferenceName, city: city, name: name, nameAbbrev: abbrev, standing: standing, wins: winCount, losses: lossCount)
-            leagueStats.append(teamStat)
+        for teamJson in teams {
+            if let teamStat = TeamStat(forConferece: conferenceName, withData: teamJson) {
+                leagueStats.append(teamStat)
+            }
         }
         return leagueStats
     }
